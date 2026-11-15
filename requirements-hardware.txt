@@ -1,0 +1,8 @@
+-r requirements.txt
+# ROS 2 packages are not installable through this requirements file.
+# Historical Python pair from environment.yml, not a claim of live hardware testing.
+numpy==1.24.0
+opencv-python==4.7.0.72
+# The external robot driver imports piper_sdk; observed installed dependency:
+piper-sdk==0.6.1
+# Camera drivers: ros-humble-usb-cam, realsense2_camera, image_transport_plugins.

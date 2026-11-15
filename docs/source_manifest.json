@@ -1,0 +1,198 @@
+{
+  "project_license": "unassigned; owner review required",
+  "third_party_source_vendored": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 158,
+      "sha256": "86587827efe2210602a8290eb93c409a50fb6411acadcaac3e062ab317023896",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "README.md",
+      "bytes": 15960,
+      "sha256": "47dd1d08942a052c5ea5a0319ff1730d48b3ca0453229e0e769cff150d6b9f0d",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "README_zh.md",
+      "bytes": 12744,
+      "sha256": "0e428b5297ad1f9f45cda0a8d9c2b7ea407156fdd331549872a6f424c85f0dd3",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "configs/collection.example.yaml",
+      "bytes": 1424,
+      "sha256": "f761dcfd51532e57020a8c6acffd2eb67d0f13cbe4d8dab6b41ac61873e17a97",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "configs/robot.example.yaml",
+      "bytes": 331,
+      "sha256": "5bb0c944b96ba2001cd8609d0cbd06b170a07058737a452be4fd3ba8391047e4",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 2423,
+      "sha256": "a7ee11f6f4367e539fe86223c3dad5902eca54be6a2a1daf36b85ae8a58e3034",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/camera_frame_rate_review.md",
+      "bytes": 2572,
+      "sha256": "838cb6a15753127c2a919d4e55d2a731fed6275990a99e6eb5c1b7b4d910edd7",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/core_code_inventory.md",
+      "bytes": 3117,
+      "sha256": "c36ff8135c4daef58489bdbaa7df969d3541cbac36c5ea0b0c95a02eb1c695e5",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/data_quality_scope.md",
+      "bytes": 2793,
+      "sha256": "85cae049cf3b3e8a96ee3943920edec743de89a0c8c00176cbb90cb330fd3ab1",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/dependencies.md",
+      "bytes": 3442,
+      "sha256": "e513970d811ea6f030606d0221d9fd9e587e290f1fbafd06eb9a0149efbc697c",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/episode_and_format.md",
+      "bytes": 1865,
+      "sha256": "b9206b5146d3ed2b4dafb031127d8636ac50e4a03b0c50db5a3ebdfe8a4eeaf8",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/publication_review.md",
+      "bytes": 2374,
+      "sha256": "451039a0f2bb545c3f561fdb5cbdacbb3fccf6a8b3c39e85aedb47bb44f05944",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "bytes": 5254,
+      "sha256": "e88b38e11ad1b3235e23fa0199aad92b33e2379f1537fed367a6461c849bd13f",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/state_and_action.md",
+      "bytes": 2185,
+      "sha256": "e4fed2055aa15d3ab8bac4c5ee17970767fd7b275e78d27b50bbda04347c2f06",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "docs/timestamp_and_synchronization.md",
+      "bytes": 1944,
+      "sha256": "409782f84e0dfdba062db3e34603d96c9ea7d4871dcdd78746f609d48a9b9585",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "launch/dualcam.launch.py",
+      "bytes": 2921,
+      "sha256": "3ff57ea8d6a501c333f5581510ca32216e8e48625a484c91b3a69a0ee624923f",
+      "provenance": "unchanged project snapshot",
+      "original_path": "dualcam.launch.py",
+      "original_sha256": "3ff57ea8d6a501c333f5581510ca32216e8e48625a484c91b3a69a0ee624923f",
+      "byte_identical": true
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 59,
+      "sha256": "b9540bfc99b4b1459e4e6545564355befc4e8043c23f8067b1eb0e87beed184e",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "requirements-hardware.txt",
+      "bytes": 389,
+      "sha256": "cc6090934f6c1ce6a57dc4b3c6eda9af87f9e837a6f98c7a2f29658dd6da3958",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 417,
+      "sha256": "32333bba9f8158816d6a5331ba2165be66a84bc0e498f1c842fc6f2bebe4df07",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "scripts/audit_dataset.py",
+      "bytes": 297,
+      "sha256": "987eae0b7ec628fa6490334a75d99bc873e48316732a22604b1369b1e9e52e20",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "scripts/collect.py",
+      "bytes": 1175,
+      "sha256": "f62e95dfa9942fd0f485994554abff1248027b3699c340fd978ce811f991878b",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "scripts/export_joint_states.py",
+      "bytes": 1434,
+      "sha256": "643cb10a62a94a7e08869cfeff8eb9491b92ae3133d7db3537718fb061b14539",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "scripts/inspect_mcap.py",
+      "bytes": 1198,
+      "sha256": "9e65fdfbd441c23c2ae9fb2c131691a914a56cef426778e5634a2d066c1b7d08",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/__init__.py",
+      "bytes": 139,
+      "sha256": "6988c8ac75e3888e8d1fab9b49c8293099529555e91b69969aa9ad4248a766c2",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/collector.py",
+      "bytes": 23308,
+      "sha256": "45bc52f9cf509f1a7df039ba9147a57327be67191b5af354ccebc6cddd775f89",
+      "provenance": "unchanged project snapshot",
+      "original_path": "collection.py",
+      "original_sha256": "45bc52f9cf509f1a7df039ba9147a57327be67191b5af354ccebc6cddd775f89",
+      "byte_identical": true
+    },
+    {
+      "path": "src/piper_collection/diagnostics/__init__.py",
+      "bytes": 77,
+      "sha256": "a0f9be9e8527c75913a6775770b94839301e2c34aad53db8f03d60fdcd675dd0",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/diagnostics/cdr.py",
+      "bytes": 2432,
+      "sha256": "1d0abd25e97f392d2b7f2d4b0eed19b78a15e55e5a5b36472a69cf512efa3136",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/diagnostics/dataset.py",
+      "bytes": 15267,
+      "sha256": "984fd7a1ab78cc18583a3b4f02fe5e668f92b41435592249018f6fe62d84dcde",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/diagnostics/mp4.py",
+      "bytes": 4600,
+      "sha256": "8973b5cb38c8ac64ab89a38068b9f2c13696cbebb8f1b9f312b5b93197a4ad31",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "src/piper_collection/diagnostics/timing.py",
+      "bytes": 1681,
+      "sha256": "9462d42e571b9a4e717ed6d4188442a5eaeec3feaf6d760aa7eda0832f7cfe78",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    },
+    {
+      "path": "tests/test_offline.py",
+      "bytes": 4803,
+      "sha256": "23d4776fce94e38d18d6aa922ba67301c2de9da62ebd200301c789cdf922e042",
+      "provenance": "new audit utility, documentation, or anonymous template"
+    }
+  ]
+}

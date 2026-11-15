@@ -1,0 +1,103 @@
+# TEMPLATE ONLY. Replace identity intrinsics with calibration at the actual video resolution.
+# Do not collect training data using these placeholder matrices.
+collection_config:
+  dataset_dir: recordings/example_task
+  state_save_freq: 50.0
+  image_save_freq: 30.0
+  total_sampled_frames: 10000
+task_info:
+  operator: Anonymous
+  task_name: example_task
+  task_description: Describe the task before recording
+  task_id: example-001
+  skill: []
+  object: []
+  scene: example
+  subtasks: []
+custom_camera_intrinsics:
+  cam_right:
+    width: 1280
+    height: 720
+    distortion_model: plumb_bob
+    D:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    K:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    R:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    P:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+  cam_left:
+    width: 1280
+    height: 720
+    distortion_model: plumb_bob
+    D:
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    K:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    R:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    P:
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 0.0
+    - 1.0
+    - 0.0

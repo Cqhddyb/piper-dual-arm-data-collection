@@ -1,0 +1,8 @@
+# Offline diagnostics and the collector's non-ROS base dependencies.
+# Python 3.10 is required by the recorded ROS 2 Humble environment.
+mcap==1.3.1
+numpy>=1.24,<3
+PyYAML>=6,<7
+# Install ROS 2 Humble, rclpy, cv_bridge/OpenCV, sensor_msgs, std_msgs,
+# builtin_interfaces, launch, launch_ros and the camera/robot drivers via ROS.
+# OpenCV is supplied separately: see requirements-hardware.txt and docs/dependencies.md.

@@ -1,0 +1,7 @@
+# Documentation template for the EXTERNAL piper ROS driver; the collector does not load it.
+left_can_interface: can_piper_left
+right_can_interface: can_piper_right
+auto_enable: false
+gripper_present: true
+# Match each interface to its physical side before enabling any motor.
+# Do not use the upstream default can0 for both sides.

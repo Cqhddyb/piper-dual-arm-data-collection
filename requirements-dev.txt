@@ -1,0 +1,3 @@
+-r requirements.txt
+mcap-ros2-support==0.5.7
+pytest>=7,<10

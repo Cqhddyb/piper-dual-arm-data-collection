@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+recordings/
+audit-output/
+*.mcap
+*.mp4
+*.bag
+*.zip
+*.tar.gz
+*.pem
+*.key
+.env
+configs/collection.local.yaml
